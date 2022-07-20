@@ -58,10 +58,6 @@ body {
   align-items: center;
 }
 
-/* .scoretext {
-  line-height: ;
-} */
-
 .btn {
   padding: 9px;
   font-family: var(--digits-font-family);
@@ -76,5 +72,4 @@ body {
 #center-section {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
