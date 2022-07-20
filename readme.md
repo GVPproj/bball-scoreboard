@@ -1,6 +1,3 @@
-## Help
-- https://projects.scrimba.com/basketball-scoreboard
-
 ## Goals
 - build from scratch
 - buttons work
@@ -11,3 +8,6 @@
 - Highlight the leader
 - add period, fouls, timer counters
 - change the design
+
+### Help Section
+- https://projects.scrimba.com/basketball-scoreboard
