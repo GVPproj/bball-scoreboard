@@ -5,7 +5,7 @@
 }
 
 :root {
-  /* font-size: 18px; */
+  font-size: 20px;
   --main-font-family: Verdana, Geneva, Tahoma, sans-serif;
   --digits-font-family: "cursed_timer_ulilregular", monospace;
 
@@ -25,7 +25,8 @@ body {
 
 #scoreboard {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin: 0px auto;
   width: 575px;
   height: 386px;
@@ -33,19 +34,47 @@ body {
 }
 
 .team {
-  margin: auto;
+  /* width: 155px; */
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.team h3 {
+  margin: 0;
+  font-size: 2rem;
 }
 
 .scorebox {
+  margin: 15px 0 20px;
   background-color: var(--bg-black);
   width: 155px;
   height: 120px;
   font-family: var(--digits-font-family);
   color: var(--text-red);
   display: flex;
+  font-size: 2rem;
   justify-content: center;
   align-items: center;
+}
+
+/* .scoretext {
+  line-height: ;
+} */
+
+.btn {
+  padding: 9px;
+  font-family: var(--digits-font-family);
+  font-weight: 100;
+  font-size: 1rem;
+  background-color: transparent;
+  color: var(--text-lightblue);
+  border: 2px solid var(--text-lightblue);
+  border-radius: 5px;
+}
+
+#center-section {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
